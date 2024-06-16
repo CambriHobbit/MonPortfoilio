@@ -1,0 +1,33 @@
+main {
+  height: calc(100% - var(--h-m));
+  overflow: hidden;
+}
+.nav-bar {
+  justify-content: space-between;
+  padding: 0px var(--pdg-s);
+  background-color: var(--black);
+  color: var(--white);
+  height: var(--h-m);
+}
+.menu {
+  justify-content: end;
+  gap: var(--sp-m);
+}
+button {
+  background-color: var(--black);
+  color: var(--white);
+  border: 1px solid var(--black);
+  display: flex;
+  align-items: center;
+  padding: var(--pdg-s);
+  font-size: var(--fts-s);
+  &:hover {
+    background-color: var(--black-hover);
+  }
+}
+h1 {
+  display: flex;
+  align-items: center;
+  padding: var(--pdg-xs);
+  font-size: var(--fts-m);
+}

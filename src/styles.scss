@@ -1,1 +1,217 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+.flex-row {
+    display: flex;
+    flex-direction: row;
+  }
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .grid {
+    display: grid;
+  }
+  
+  .flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+  }
+  
+  .flex-wrap-no {
+    flex-wrap: nowrap;
+  }
+  
+  .justify-center {
+    justify-content: center;
+  }
+  
+  .spc-btw {
+    justify-content: space-between;
+  }
+  
+  .align-center {
+    align-items: center;
+  }
+  
+  .button {
+    background-color: var(--raisin-black);
+    color: var(--white);
+    padding: var(--pdg-xs);
+    border: 1px solid var(--raisin-black);
+    border-radius: var(--brd-rds-s);
+  }
+  
+  .paragraph {
+    line-height: var(--ln-m);
+    text-indent: var(--ln-m);
+  }
+  
+  * {
+    padding: 0%;
+    margin: 0%;
+  }
+  
+  html {
+    height: 100%;
+  }
+  
+  body {
+    height: 100%;
+  }
+  
+  :root {
+    // var d'espacement
+    --sp-xs: 6px;
+    --sp-s: 12px;
+    --sp-m: 24px;
+    --sp-l: 32px;
+    --sp-xl: 48px;
+  
+    // var de padding
+    --pdg-xs: 12px;
+    --pdg-s: 18px;
+    --pdg-m: 24px;
+    --pdg-l: 32px;
+    --pdg-xl: 48px;
+  
+    // var de margin
+    --mrg-xs: 10px;
+    --mrg-s: 18px;
+    --mrg-m: 24px;
+    --mrg-l: 32px;
+    --mrg-xl: 48px;
+  
+    // var de font-sise
+    --fts-xs: 12px;
+    --fts-s: 24px;
+    --fts-m: 32px;
+    --fts-l: 48px;
+    --fts-xl: 72px;
+    --fts-error-num: 200px;
+    --fts-error-title: 100px;
+    // Palette de couleur
+  
+    /* SCSS HEX */
+    --white: #ffffffff;
+    --silver: #cacacaff;
+    --cinereous: #a78d84ff;
+    --raisin-black: #242131ff;
+    --black: #151515ff;
+    --black-hover: #1f1c1cff;
+  
+    // /* SCSS RGB */
+    // --white: rgb(255, 255, 255);
+    // --silver: rgb(202, 202, 202);
+    // --cinereous: rgb(167, 141, 132);
+    // --raisin-black: rgb(36, 33, 49);
+    // --black: rgb(21, 21, 21);
+    // --black-hover: rgb(31, 28, 28);
+  
+    /* SCSS Gradient */
+    --gradient-top: linear-gradient(
+      0deg,
+      #ffffffff,
+      #cacacaff,
+      #a78d84ff,
+      #242131ff,
+      #151515ff
+    );
+    --gradient-right: linear-gradient(
+      90deg,
+      #ffffffff,
+      #cacacaff,
+      #a78d84ff,
+      #242131ff,
+      #151515ff
+    );
+    --gradient-bottom: linear-gradient(
+      180deg,
+      #ffffffff,
+      #cacacaff,
+      #a78d84ff,
+      #242131ff,
+      #151515ff
+    );
+    --gradient-left: linear-gradient(
+      270deg,
+      #ffffffff,
+      #cacacaff,
+      #a78d84ff,
+      #242131ff,
+      #151515ff
+    );
+    --gradient-top-right: linear-gradient(
+      45deg,
+      #ffffffff,
+      #cacacaff,
+      #a78d84ff,
+      #242131ff,
+      #151515ff
+    );
+    --gradient-bottom-right: linear-gradient(
+      135deg,
+      #ffffffff,
+      #cacacaff,
+      #a78d84ff,
+      #242131ff,
+      #151515ff
+    );
+    --gradient-top-left: linear-gradient(
+      225deg,
+      #ffffffff,
+      #cacacaff,
+      #a78d84ff,
+      #242131ff,
+      #151515ff
+    );
+    --gradient-bottom-left: linear-gradient(
+      315deg,
+      #ffffffff,
+      #cacacaff,
+      #a78d84ff,
+      #242131ff,
+      #151515ff
+    );
+    --gradient-radial: radial-gradient(
+      #ffffffff,
+      #cacacaff,
+      #a78d84ff,
+      #242131ff,
+      #151515ff
+    );
+  
+    // var border-radius
+    --brd-rds-s: 5px;
+    --brd-rds-m: 10px;
+    --brd-rds-l: 20px;
+    --brd-rds-xl: 50px;
+    --brd-rds-cercle: 100%;
+  
+    // height
+    --h-m: 5rem;
+    --h-l: 10rem;
+    --h-xl: 15rem;
+  
+    // rps value
+    --rsp-s: clamp(12px, calc((12 * (0.1 * var(--small-bp))) * 1vw), 24px);
+    --rsp-s: clamp(12px, calc((24 * (0.1 * var(--small-bp))) * 1vw), 48px);
+    --rsp-m: clamp(24px, calc((48 * (0.1 * var(--small-bp))) * 1vw), 96px);
+    --rsp-l: clamp(48px, calc((96 * (0.1 * var(--small-bp))) * 1vw), 192px);
+    --small-bp: 800;
+  
+    // Line-heigh
+    --ln-s: 1.5em;
+    --ln-m: 2em;
+    --ln-l: 3em;
+  
+    // Space vh
+  
+    --sp-vh-m: 50vh;
+    --sp-vh-l: 75vh;
+    --sp-vh-xl: 100vh;
+  }
+  
