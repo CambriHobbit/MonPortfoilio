@@ -29,8 +29,4 @@ export class ShortProjetComponent implements OnInit {
     }
     return string;
   }
-
-  navigateTo(url: string): void {
-    this.router.navigateByUrl(`projet/${url}`);
-  }
 }
