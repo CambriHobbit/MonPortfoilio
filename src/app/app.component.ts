@@ -21,8 +21,4 @@ export class AppComponent {
   ngOnInit(): void {
     this.user = this.infoService.getUser();
   }
-
-  goTo(url: string) {
-    this.router.navigateByUrl(url);
-  }
 }
