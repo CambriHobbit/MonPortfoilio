@@ -1,0 +1,58 @@
+article {
+  height: 100%;
+}
+h1 {
+  font-size: var(--fts-l);
+  margin-bottom: var(--mrg-m);
+}
+
+h2 {
+  font-size: var(--fts-m);
+  margin-bottom: var(--mrg-m);
+}
+
+h4 {
+  font-size: var(--fts-s);
+  margin-bottom: var(--mrg-s);
+}
+
+aside {
+  height: 100%;
+  padding: var(--pdg-m);
+  background-color: var(--cinereous);
+  width: var(--sp-vh-m);
+  align-items: center;
+}
+
+.main-content {
+  height: 100%;
+  width: 100%;
+  padding: var(--pdg-m);
+  overflow: scroll;
+}
+.card {
+  padding: var(--pdg-m);
+  border: 1px solid var(--silver);
+  border-radius: var(--brd-rds-m);
+  height: fit-content;
+}
+p.list {
+  margin: var(--mrg-xs) 0;
+}
+.list-card {
+  gap: var(--sp-s);
+  flex-wrap: wrap;
+}
+.info-sup {
+  p {
+    line-height: var(--ln-m);
+  }
+}
+.github-logo {
+  width: var(--sp-xl);
+}
+.me {
+  width: calc(var(--sp-l) * 10);
+  border-radius: var(--brd-rds-m);
+  margin-bottom: var(--mrg-m);
+}

@@ -1,0 +1,30 @@
+<section>
+  @if (this.passion.orientation == "droite") {
+  <div class="flex-row align-center flex-wrap">
+    <div class="content-text">
+      <h3>{{ this.passion.intitule }}</h3>
+      <p class="paragraph">{{ this.passion.texte }}</p>
+    </div>
+    <img
+      class="{{ this.passion.class }}"
+      src="../../../../assets/images/{{ this.passion.image }}"
+      alt="{{ this.passion.intitule }}"
+    />
+  </div>
+  } @if (this.passion.orientation == "gauche") {
+  <div class="flex-row align-center flex-wrap-reverse">
+    <img
+      class="{{ this.passion.class }}"
+      src="../../../../assets/images/{{ this.passion.image }}"
+      alt="{{ this.passion.intitule }}"
+    />
+    <div class="content-text">
+      <h3>{{ this.passion.intitule }}</h3>
+      <p class="paragraph">{{ this.passion.texte }}</p>
+    </div>
+  </div>
+  }
+</section>
+<div class="ligne">
+  <hr />
+</div>

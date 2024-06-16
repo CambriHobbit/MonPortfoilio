@@ -1,0 +1,55 @@
+<article class="flex-row">
+  <aside class="flex-column">
+    <img class="me" src="../../../../assets/images/Me.jpg" />
+    <h1>{{ this.user.firstName }} {{ this.user.lastName }}</h1>
+    <h2>{{ this.user.information.age }} ans</h2>
+    <div class="info-sup">
+      <p>{{ this.user.information.situation }}</p>
+      <p>{{ this.user.information.mail }}</p>
+      <p>{{ this.user.information.phone }}</p>
+      <a href="{{ this.user.information.git }}"
+        ><img
+          class="github-logo"
+          src="../../../../assets/images/github-mark.png"
+          alt="Github"
+      /></a>
+    </div>
+  </aside>
+  <div class="main-content">
+    <h1>Qui suis-je ?</h1>
+    <p class="paragraph">{{ this.user.information.monHistoire }}</p>
+    <br />
+
+    <h2>Des infos en vrac</h2>
+    <div class="flex-row list-card">
+      <div class="card">
+        <h4>Mes ouvrages préférés</h4>
+        @for (ouvrage of this.user.information.mesOuvragePref; track ouvrage) {
+        <p class="list">{{ ouvrage }}</p>
+        }
+      </div>
+      <div class="card">
+        <h4>Mes peintures préférées</h4>
+        @for (peintures of this.user.information.mesPeinturePref; track
+        peintures) {
+        <p class="list">{{ peintures }}</p>
+        }
+      </div>
+      <div class="card">
+        <h4>Mes patrons de conception préférés</h4>
+        @for (patron of this.user.information.mesDesignPatterPref; track patron)
+        {
+        <p class="list">{{ patron }}</p>
+        }
+      </div>
+    </div>
+
+    <br />
+    <h2>Mes passions</h2>
+    <div>
+      @for (passion of this.user.information.mesPassion; track passion) {
+      <app-passion [passion]="passion"></app-passion>
+      }
+    </div>
+  </div>
+</article>

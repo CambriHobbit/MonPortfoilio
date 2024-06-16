@@ -1,0 +1,28 @@
+.lotr,
+.savoie {
+  min-width: 500px;
+  max-height: 300px;
+  border-radius: var(--brd-rds-m);
+}
+
+.counter-strike {
+  border-radius: var(--brd-rds-m);
+}
+
+.ligne {
+  display: flex;
+  justify-content: center;
+
+  hr {
+    width: 80%;
+  }
+}
+section {
+  margin: var(--mrg-m) 0;
+}
+.content-text {
+  padding: 0 var(--pdg-s);
+  flex-grow: 1;
+  //min-width: ;
+  max-width: 60%;
+}
