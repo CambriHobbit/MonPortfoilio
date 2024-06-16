@@ -18,7 +18,6 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then((m) => m.HomeModule),
   },
   { path: 'error-404', component: Error404Component },
-  { path: '**', component: Error404Component },
 ];
 
 @NgModule({
