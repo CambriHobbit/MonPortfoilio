@@ -1,0 +1,28 @@
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: var(--mrg-xl) var(--mrg-l);
+}
+
+div p:first-child{
+    font-size: var(--fts-error-num);
+}
+div p:nth-child(2){
+    font-size: var(--fts-error-title);
+}
+
+div p{
+    margin: var(--mrg-l) var(--mrg-m);
+}
+
+button{
+    padding: var(--pdg-s) var(--pdg-m);
+    margin: var(--mrg-m) var(--mrg-s);
+    font-size: var(--fts-s);
+    background-color: var(--raisin-black);
+    color: var(--white);
+    border-radius: var(--brd-rds-s);
+    border: 1px solid var(--black);
+}
