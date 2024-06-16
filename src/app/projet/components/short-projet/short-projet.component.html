@@ -1,0 +1,15 @@
+<div class="flex-row project">
+  <section>
+    <h2>Projet {{ project.id }} : {{ this.substring(project.name) }}</h2>
+    @if (project.keyWords) {
+    <div class="flex-row">
+      @for (ele of project.keyWords; track ele) {
+      <p class="key-words">{{ ele }}</p>
+      }
+    </div>
+    }
+  </section>
+  <button (click)="this.navigateTo(project.id)" class="button">
+    Voir plus
+  </button>
+</div>

@@ -1,0 +1,114 @@
+<article class="flex-column">
+  <button class="button" (click)="this.goBack()">Retour</button>
+  <div class="flex-row justify-center">
+    <section>
+      <h1>Projet {{ project.id }} : {{ project.name }}</h1>
+      <p class="paragraph">{{ project.subject }}</p>
+
+      @if(project.competenceTechnique != undefined){
+      <details>
+        <summary>
+          <span class="summary-title"
+            >Compétences techniques utilisées et développées</span
+          >
+          <div class="summary-chevron-up">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-chevron-down"
+            >
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
+        </summary>
+
+        <div class="summary-content">
+          @for ( competence of project.competenceTechnique ; track competence) {
+          <li>{{ competence }}</li>
+          }
+        </div>
+        <div class="summary-chevron-down">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-chevron-up"
+          >
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </div>
+      </details>
+      } @if (project.competenceTransversal != undefined) {
+      <details>
+        <summary>
+          <span class="summary-title"
+            >Compétences transversales utilisées et développées</span
+          >
+          <div class="summary-chevron-up">
+            <svg
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-chevron-down"
+            >
+              <polyline points="6 9 12 15 18 9"></polyline>
+            </svg>
+          </div>
+        </summary>
+
+        <div class="summary-content">
+          @for ( competence of project.competenceTransversal ; track competence)
+          {
+          <li>{{ competence }}</li>
+          }
+        </div>
+        <div class="summary-chevron-down">
+          <svg
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="feather feather-chevron-up"
+          >
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </div>
+      </details>
+      } @if (project.option != undefined) {
+      <div class="flex-column etapes">
+        @for (etape of project.option; track etape) {
+        <app-etape [etape]="etape"></app-etape>
+        }
+      </div>
+      }
+      <div class="flex-row">
+        <h3>Mots clés :</h3>
+        <div class="flex-row">
+          @for (ele of project.keyWords; track ele) {
+          <p class="key-words">- {{ ele }}</p>
+          }
+        </div>
+      </div>
+    </section>
+  </div>
+</article>

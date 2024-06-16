@@ -1,0 +1,16 @@
+.project {
+  padding: var(--pdg-xs) var(--pdg-m);
+  gap: var(--sp-m);
+  border: 1px solid var(--black-hover);
+  border-radius: var(--brd-rds-s);
+  width: fit-content;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.key-words {
+  margin-right: var(--mrg-s);
+}

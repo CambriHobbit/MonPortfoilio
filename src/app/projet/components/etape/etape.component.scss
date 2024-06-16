@@ -1,0 +1,21 @@
+img {
+  max-width: 300px;
+  max-height: 300px;
+  border-radius: var(--brd-rds-m);
+}
+div {
+  max-width: 350px;
+  padding: var(--pdg-s);
+  justify-content: center;
+  align-items: center;
+  border: 1px solid var(--silver);
+  border-radius: var(--brd-rds-m);
+  gap: var(--sp-s);
+}
+p {
+  text-align: center;
+}
+h3 {
+  font-size: var(--fts-s);
+  margin-bottom: var(--mrg-s);
+}

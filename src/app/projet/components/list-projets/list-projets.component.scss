@@ -1,0 +1,9 @@
+.list-project {
+  height: 100%;
+  padding: var(--pdg-m);
+  overflow: scroll;
+  .projects {
+    gap: var(--sp-s);
+    margin: var(--mrg-s);
+  }
+}

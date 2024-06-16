@@ -1,0 +1,34 @@
+<div class="list-project">
+
+    <h1>Expériences professionnelles</h1>
+    <div class="flex-column projects">
+        @for(project of this.projectsPro; track project){
+            <app-short-projet [project]="project"></app-short-projet>
+        }
+        @if(this.projectsPro.length == 0){
+            <p>Pas de projets professionnels</p>
+        }
+    </div>
+
+    <h1>Projets universitaires</h1>
+    <div class="flex-column projects">
+        @for(project of this.projectsUniv; track project){
+            <app-short-projet [project]="project"></app-short-projet>
+        }
+        @if(this.projectsUniv.length == 0){
+            <p>Pas de projets professionnels</p>
+        }
+    </div>
+    
+    <h1>Projets personnels</h1>
+    <div class="flex-column projects">
+        @for(project of this.projectsPerso; track project){
+            <app-short-projet [project]="project"></app-short-projet>
+        }
+        @if(this.projectsPerso.length == 0){
+            <p>Pas de projets professionnels</p>
+        }
+    </div>
+    
+    
+</div>
