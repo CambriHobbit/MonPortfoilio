@@ -1,19 +1,20 @@
 <article class="flex-row">
   <aside class="flex-column">
-    <img class="me" src="./assets/images/Me.jpg" />
+    <!-- <img class="me" src="./assets/images/Me.jpg" /> -->
     <h1>{{ this.user.firstName }} {{ this.user.lastName }}</h1>
     <h2>{{ this.user.information.age }} ans</h2>
     <div class="info-sup">
       <p>{{ this.user.information.situation }}</p>
       <p>{{ this.user.information.mail }}</p>
       <p>{{ this.user.information.phone }}</p>
-      <a href="{{ this.user.information.git }}">
-        <!-- <img
+      <a class="button" href="{{ this.user.information.git }}">Mon Github</a>
+      <!-- <a href="{{ this.user.information.git }}">
+        <img
           class="github-logo"
           src="./assets/images/github-mark.png"
-          alt="Github"/> -->
+          alt="Github"/>
         Github
-      </a>
+      </a> -->
     </div>
   </aside>
   <div class="main-content">
