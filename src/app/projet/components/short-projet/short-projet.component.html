@@ -1,17 +1,26 @@
-<div class="flex-row project">
-  <section>
-    <h2>Projet {{ project.id }} : {{ this.substring(project.name) }}</h2>
-    @if (project.keyWords) {
-    <div class="flex-row">
-      @for (ele of project.keyWords; track ele) {
-      <p class="key-words">{{ ele }}</p>
+<div class="flex-row project"></div>
+
+<details>
+  <summary>
+    <section>
+      <h2>Projet {{ project.id }} : {{ this.substring(project.name) }}</h2>
+      @if (project.keyWords) {
+      <div class="flex-row">
+        @for (ele of project.keyWords; track ele) {
+        <p class="key-words">{{ ele }}</p>
+        }
+      </div>
       }
-    </div>
-    }
-  </section>
-  <a
-    class="button"
-    href="https://cambrihobbit.github.io/MonPortfoilio/projet/{{ project.id }}"
-    >Voir plus</a
-  >
-</div>
+    </section>
+    <a
+      class="button"
+      href="https://cambrihobbit.github.io/MonPortfoilio/projet/{{
+        project.id
+      }}"
+      >Voir plus</a
+    >
+  </summary>
+  <div>
+    <app-projet [project]="project"></app-projet>
+  </div>
+</details>
