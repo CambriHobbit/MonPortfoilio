@@ -1,0 +1,253 @@
+{
+    "firstName": "Gabin",
+    "lastName": "Mussio",
+    "information" : {
+        "image": "Me.jpg",
+        "git": "https://github.com/CambriHobbit",
+        "mail":"gabin.mussio@laposte.net",
+        "phone" : "0767100932",
+        "age":20,
+        "mesPassion":[
+            {
+                "intitule" : "Le Seigneur des Anneaux",
+                "image": "LOTR.png",
+                "orientation": "droite",
+                "class": "lotr",
+                "texte": "Comment j'ai découvert cet univers ? C'est très simple un jour : \"Le Seigneur des Anneaux\" est passé à la télévision et j'ai tout de suite aimé cet univers. L'un des aspects les plus remarquables de l'univers de Tolkien est son attention aux détails. Chaque peuple, qu'il s'agisse des Elfes, des Nains, des Hommes ou des Hobbits, possède sa propre histoire, sa propre langue et ses propres coutumes. Tolkien a développé des langues complètes pour ces races, donnant ainsi une profondeur et une crédibilité à son univers. En plus de son souci du détail, Tolkien a également réussi à créer une mythologie riche et authentique. Son univers regorge de légendes anciennes, de récits épiques et de contes populaires. Ces histoires nous transportent dans un monde de magie, de héros et de quêtes épiques. On retrouve ces mythes et ces légendes dans plusieurs de ses livres tels que \"Le Silmarion\" ou encore \"Contes et légendes inachevés\". Un autre aspect remarquable de l'univers de Tolkien est sa profondeur émotionnelle. Ses personnages sont vivants, complexes et profondément humains. De Frodon Sacquet, le courageux porteur de l'Anneau, à Aragorn, le roi guerrier, en passant par Gandalf, le sage magicien, chaque personnage est doté d'une personnalité unique et d'une histoire fascinante. Les relations entre les personnages, leurs luttes internes et leurs triomphes nous touchent et nous font réfléchir sur la nature de l'amitié, du courage et du sacrifice. Enfin, l'univers de Tolkien est imprégné d'une profonde mythologie et d'une réflexion philosophique. Il explore des thèmes tels que le bien et le mal, la destinée, le pouvoir corrupteur et la valeur de la nature et de la beauté. Tolkien était lui-même un fervent défenseur de la nature, et cette passion se reflète dans son œuvre. Son univers nous invite à réfléchir sur notre propre monde et sur notre place en tant qu'êtres humains."
+            },
+            {
+                "intitule":"L'histoire de la Savoie",
+                "image": "savoie.jpg",
+                "orientation": "gauche",
+                "class" : "savoie",
+                "texte":"L'histoire de la Savoie est une saga captivante qui remonte à des siècles, remplie d'événements épiques, de personnages illustres et d'une identité culturelle riche. Du cœur des Alpes aux vallées verdoyantes, la Savoie a été le théâtre d'un récit dynamique qui a façonné la région et influencé l'Europe. L'une des caractéristiques les plus fascinantes de l'histoire de la Savoie est son héritage dynastique. La Maison de Savoie, une famille noble originaire de la région, a joué un rôle essentiel dans la formation et l'évolution de la Savoie. De modestes comtes, ils ont progressivement étendu leur pouvoir et leur influence, devenant d'abord ducs, puis rois de Sardaigne. Leurs réalisations politiques et militaires, notamment la création du royaume de Sardaigne, ont marqué l'histoire européenne. L'emplacement géographique stratégique de la Savoie en a également fait un carrefour culturel et politique majeur. Située au croisement de l'Italie, de la France et de la Suisse, la Savoie a été le théâtre de nombreux conflits et échanges, façonnant ainsi son destin. Les cités médiévales, les châteaux imposants et les forts perchés témoignent des nombreux combats et sièges qui ont eu lieu dans la région. Cette histoire mouvementée a laissé une empreinte indélébile sur le paysage savoisien et contribué à forger une identité forte et fière. La richesse culturelle de la Savoie est un autre élément qui mérite d'être souligné. La région a préservé ses traditions ancestrales, ses dialectes et ses coutumes, créant ainsi un tissu social unique. De plus, la Savoie est célèbre pour sa gastronomie délicieuse, mettant en avant des plats tels que la fondue, la tartiflette et les fromages renommés comme le Beaufort et l'Abondance. Les vins de Savoie, issus de vignobles en terrasses nichés dans les montagnes, sont également réputés pour leur qualité exceptionnelle. Enfin, l'histoire de la Savoie est indissociable de ses paysages époustouflants. Les majestueuses montagnes alpines, les lacs scintillants et les vallées verdoyantes offrent un cadre naturel spectaculaire à cette histoire."
+            },
+            {
+                "intitule":"Counter-Strike",
+                "image": "CS.jpg",
+                "orientation": "droite",
+                "class" : "counter-strike",
+                "texte":"Counter-Strike est l'un de mes jeux vidéos préferé. C'est un \"FPS\" (First Personnel Shooter, jeu de tir à la première personne) en cinq contre cinq qui nécessite d'être astucieux pour gagner. Ce jeu est l'un des premiers jeu sur PC auquel j'ai joué. C'est l'un des jeux où l'on peut jouer avec ses amis, rigoler ensemble ou encore se donner au maximum tous ensemble. Counter-Strike est une franchise où l'on retrouve de l'e-sport avec des tournois spectaculaires. Counter-Stike est l'un des \"FPS\" les plus joué dans le monde. Ce jeu possède des cartes mythiques, des joueurs et des structures légendaires. "
+            }
+        ],
+        "mesOuvragePref":[
+            "Le Seigneur des Anneaux et Le Silmarion, de J.R.R. Tolkien",
+            "Le Trône de fer, de G.R.R. Martin",
+            "Trois cents, de F. Miller"
+        ],
+        "mesPeinturePref":[
+            "La nuit étoilée, de V. Van Gogh",
+            "La Création d'Adam, de Michel-Ange",
+            "La Cène, de L. DaVinci",
+            "Le Cri, de Munch"
+        ],
+        "mesDesignPatterPref":[
+            "Smart-Dumb",
+            "Iterator",
+            "Composite",
+            "Observeur"
+        ],
+        "monHistoire":"Passionné par les jeux vidéos et l'informatique, j'ai décidé d'orienter mes études dans ces domaines. C'est pour cela que dès le lycée, j'ai pris comme spécialités NSI (Numérique et Science de l'Informatique) ainsi que les Mathématiques et la Physique Chimie. J'ai gardé la NSI et les Mathématiques en terminal pour avoir un Bac orienté vers l'informatique. Une fois le Bac mention bien obtenu, je me suis orienté vers un BUT informatique avec pour objectif d'enrichir mes compétences dans le développement d'applications.",
+        "situation":"Etudiant en deuxième année du BUT Informatique de Grenoble IUT2, 2 place Doyen Gosse"
+
+    },
+    "projects": [
+        {
+            "type" : "univ",
+            "id" : "I",
+            "name": "Installation et configuration d'un poste de travail",
+            "subject": "Le but de ce projet consiste à l'installation d'une machine virtuelle sous Debian. Après l'installation de celle-ci, on a dû installer des applications tels que PostgreSQL, Apache et PHP afin de se servir de la machine virtuelle comme un serveur.",
+            "competenceTechnique" : [
+                "Utilisation du gestionnaire de paquet APT",
+                "Installation et utilisation d'une interface en ligne commande",
+                "Installation d'un service réseau"
+            ],
+            "competenceTransversal":[
+                "Interpréter et résoudre une erreur",
+                "Modéliser et comprendre un réseau"
+            ],
+            "keyWords" :[
+                "Bash"
+            ]
+        },
+        {
+            "type" : "univ",
+            "id" : "II",
+            "name": "Création, nettoyage et analyse de données",
+            "subject": "Ce projet en binôme a pour but la création d'une base de données puis l'analyse de ces dernières. Dans un premier temps, on a récuperé les données depuis un fichier csv, ensuite on a dû les nettoyer afin de garder les plus pertinentes. Par la suite, on a récuperé ces données afin de les utiliser pour en faire des graphiques et une analyse statistique.",
+            "competenceTechnique" : [
+                "Importation et exportation d'une base de données",
+                "Manipulation de PostgreSQL et Rstudio",
+                "Utilisation de SQL et de R"
+            ],
+            "competenceTransversal":[
+                "Travail d'équipe",
+                "Interprétation de contraintes et de données",
+                "Sélection de données pertinentes"
+            ],
+            "keyWords" :[
+                "SQL",
+                "R"
+            ]
+        },
+        {
+            "type" : "univ",
+            "id" : "III",
+            "name": "Mise en avant de la transition écologique et numérique d'une entreprise du service numérique",
+            "subject": "Dans le cadre de ce projet en trinôme, on a dû choisir une entreprise du service numérique afin d'étudier son approche de l'écologie et de sa transition numérique. Après cette étude, nous avons dû réaliser un site web récapitulatif de ce que l'on avait trouvé dans notre étude. De même, nous avons dû vulgariser le contenu technique afin que le plus de personnes puissent comprendre le sujet.",
+            "competenceTechnique" : [
+                "Utilisation de HTML et de CSS",
+                "Vulgarisation de terme technique"
+            ],
+            "competenceTransversal":[
+                "Travail d'équipe",
+                "Interprétation de la transition écologique et numérique d'une entreprise",
+                "Sélection de données pertinentes"
+            ],
+            "keyWords" :[
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "type" : "univ",
+            "id" : "IV",
+            "name": "Création d'une application de gestion d'évènements",
+            "subject": "L'objectif de ce projet est la création d'une application de gestion d'évènements. Pour ce projet, nous étions une équipe de cinq personnes. Ce projet avait besoin d'une grande organisation, et donc de planification. On a dû mettre en place une buvette virtuelle et optimiser sa fonction de gain. On a dû développer l'interface de cette application en Java et JavaFXML et modéliser en amont cette interface.",
+            "competenceTechnique" : [
+                "Utilisation de JavaFX et de UML",
+                "Optimisation d'une fonction",
+                "Gestion d'une équipe",
+                "Conception d'une maquette et de diagrammes"
+            ],
+            "competenceTransversal":[
+                "Travail d'équipe",
+                "Modélisation d'un problème et résolution"
+            ],
+            "keyWords" :[
+                "Java",
+                "XML"
+            ]
+        },
+        {
+            "type" : "univ",
+            "id" : "V",
+            "name": "Implémentation d'un besoin et comparaison d'approche algorithmique",
+            "subject": "Le but de ce projet en binôme était la création d'un programme en Java auquel nous avons donné un fichier contenant des mots associés à un nombre. Ensuite, il classait les différents articles selon leur thème, avec plus ou moins d'erreurs. Dans un second temps, pour avoir plus de précisions, nous avons automatisé la création du fichier contenant les mots avec un poids associé. On lui a donné une liste d'articles avec un thème précis. Si le mot n'apparait pas dans le thème, on lui ajoute 'un' à son poids. Puis on change de thème. Si le mot apparait de nouveau dans le thème, on décrémente son poids. Par la suite, on a supprimé les mots avec un poids très négatif car la plupart du temps ces mots ne sont pas significatifs d'un thème précis. Par exemple, les pronoms et les conjonctions de coordination ne sont pas significatifs. Pour finir, on a testé de nouveau sur les mêmes articles, et le pourcentage d'erreur était très faible, inférieur à 10%.",
+            "competenceTechnique" : [
+                "Utilisation de Java",
+                "Mise en place d'un algorithmique qui \"apprend\"",
+                "La programmation à plusieurs"
+            ],
+            "competenceTransversal":[
+                "Travail en binôme",
+                "Implémentation d'un besoin",
+                "Compréhension algorithmique (algorithmique qui \"apprend par lui-même\")"
+            ],
+            "keyWords" :[
+                "Java"
+            ]
+        },
+        {
+            "type" : "perso",
+            "id" : "VI",
+            "name": "Création d'un terrain de pétanque",
+            "subject": "Afin de réunir ma famille ou mes amis, j'ai eu le projet de la création d'un terrain de pétanque.",
+            "option" : [
+                {
+                    "numEtape" : 1,
+                    "nomEtape" :"Faire les plans",
+                    "imgEtape" : "Plan.jpg",
+                    "commentaireEtape": "Ceci est une étape importante pour modéliser la situation et se rendre ccompte du travail."
+                },
+                {
+                    "numEtape" : 2,
+                    "nomEtape" :"Délimiter la zone et la creuser",
+                    "imgEtape" : "EtapeII.jpg",
+                    "commentaireEtape": "Anecdote/Conseil: Ne pas prendre un décamètre en tissu des années 60, le tissu rapetisse dans le temps !"
+                },
+                {
+                    "numEtape" : 3,
+                    "nomEtape" :"Poser le géotextile, les traverses, puis déposer le gravier.",
+                    "imgEtape" : "EtapeIII.jpg",
+                    "commentaireEtape": "Conseil: pour une meilleure expérience mettre son terrain à niveau."
+                },
+                {
+                    "numEtape" : 4,
+                    "nomEtape" :"Jouer !",
+                    "imgEtape" : "terrain-de-petanque.jpg",
+                    "commentaireEtape": "Conseil: Inviter des amis et passer un bon moment."
+                }
+            ],
+            "keyWords" :[
+                "Pétanque",
+                "Amis"
+            ]
+        },
+        {
+            "type" : "univ",
+            "id" : "VII",
+            "name": "Création d'un jeu ludo-éducatif",
+            "subject": "Au sein d’une équipe de 8, il fallait créer une application en suivant une démarche de développement itérative ou incrémentale. En partant d'un besoin décrit de manière imprécise ou incomplète par un client, l'objectif est de clarifier/compléter, collecter et formaliser le besoin puis de développer une application communicante intégrant la manipulation des données et respectant les paradigmes de qualité (ergonomie des interfaces, qualité logicielle). Il était nécessaire de mobiliser les ressorts du jeu, récompense et frustration (progression, score), afin de favoriser l'apprentissage et la motivation. Contrairement à un jeu vidéo classique, ces mécanismes doivent prendre part au dispositif pédagogique, le tout afin de motiver les utilisateurs, de leur apporter des informations, un savoir-faire ou un entraînement. Il convenait d’ajouter un aspect compétitif afin de le rendre plus engageant. Nous avons utilisé Phaser, un framework  JavaScript.",
+            "competenceTechnique" : [
+                "Travail en équipe",
+                "Prise en main d'un nouveau framework",
+                "Mise en place d'un système de connexion",
+                "Création d'une base de données"
+            ],
+            "competenceTransversal":[
+                "Création de jeu ludo-éducatif",
+                "Choisir un langage de programmation adapter à nos besoin"
+            ],
+            "keyWords" :[
+                "JavaScript",
+                "Phaser",
+                "PHP",
+                "SQL",
+                "HTML",
+                "CSS"
+            ]
+        },
+        {
+            "type" : "univ",
+            "id" : "VIII",
+            "name": "Améliorer et optimiser une application existante ",
+            "subject": "L’application a pour but de renseigner un carnet de recherche de stage pour consulter les offres disponibles et faire le suivi des candidatures en cours jusqu’au choix d’une proposition parmi plusieurs réponses positives. Elle concerne deux acteurs : le responsable des stages, qui gère les offres de stage et les étudiants qui candidatent à des offres. L’application ne couvre pas la suite du processus qui est d’ordre administratif. On avait à disposition deux applications: une application en Android et une autre en PHP. Dans ces applications, il y avait différents problèmes tels que l'ergonomie et un code mal organisé et ne respectant pas de bonnes normes.",
+            "competenceTechnique" : [
+                "Utilisation de \"Merge Request\" ",
+                "Développement Android, PHP et SQL"
+            ],
+            "competenceTransversal":[
+                "Annalyser l'ergonomie d'une application",
+                "Travail d'équipe"
+            ],
+            "keyWords" :[
+                "Android",
+                "Synfony",
+                "PHP",
+                "SQL"
+            ]
+        },
+        {
+            "type" : "pro",
+            "id" : "IX",
+            "name": "Moderniser une application interne",
+            "subject": "Modernisation d'une application interne à l'entreprise en angular",
+            "competenceTechnique" : [
+                "Création d'une application angular",
+                "Utilisation des outils propres à TypeScript"
+            ],
+            "competenceTransversal":[
+                "Prise en main d'outils",
+                "Travail en entreprise",
+                "Revue de code"
+            ],
+            "keyWords" :[
+                "Stage",
+                "Angular",
+                "TypeScript"    
+            ]
+        }
+    ]
+
+}
