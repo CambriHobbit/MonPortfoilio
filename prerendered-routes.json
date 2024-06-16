@@ -1,0 +1,8 @@
+{
+  "routes": [
+    "/",
+    "/error-404",
+    "/mes-infos",
+    "/projet"
+  ]
+}
